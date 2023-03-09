@@ -1,0 +1,604 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Starting of navbar CSS */
+
+.navbar{
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15% );
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 0 20px;
+    height: 90px;
+    /* border: 2px solid blue; */
+}
+
+.nav{
+    /* border: 2px solid black; */
+    height: 90px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+    width: 30px;
+    margin-right: 13px;
+    /* border: 2px solid black; */
+    transition: transform 0.3 cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.logo :hover{
+    transform: scale(1.1);
+}
+
+.location-div{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 30px;
+    height: 30px;
+    /* border: 3px solid black; */
+    padding-right: 20px;
+    cursor: pointer;
+    margin-bottom: -1px;
+    font-size: 16px; 
+}
+
+.other{
+    font-weight: 800;
+    border-bottom: 2px solid black;
+    margin-right: 3px;
+    padding-bottom: 2px;
+    float: left;
+}
+
+.other:hover{
+    color: orange;
+    border-bottom:2px solid orange;
+} 
+
+.location{
+    font-weight: 300;
+    color: #686b78;
+    margin-left: 5px ;
+    padding-left: 5px;
+    display: block;
+}
+
+.down-arrow{
+    position: absolute;
+    top: 50%;
+    right: -6%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: orange;
+    font-weight: 600;
+
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.items li{
+    /* border: 3px solid black; */
+    list-style-type: none;
+    margin-right: 36px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #3d4152;
+}
+
+.nav-items{
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    position: relative;
+    /* font-weight: 550; */
+}
+
+.right{
+    /* border: 2px solid black; */
+    display:  flex;
+    justify-content: center;
+}
+
+a:hover{
+    color:  orange;
+}
+
+.icon-content-items {
+    list-style: none;
+    display: flex;
+    color: #686b78;
+
+}    
+.icon-content-text {
+    margin-left: 10px;
+}
+
+.icon-content-items:hover .icon-content-text {
+    cursor: pointer;
+    color: orange;
+}
+.icon-content-items:hover .icon-content-items-icon {
+    cursor:pointer;
+    fill: orange;
+}
+
+/* Ending of navbar CSS */
+
+
+/* Starting of middle section CSS */
+
+/* starting of middle topbar */
+
+.middle-topbar{
+    margin: 90px 0 0 90px ;
+    height: 30px;
+    color: #93959f;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    font-size: small;
+    /* margin: 0 auto; */
+    /* border: 2px solid black; */
+
+}
+
+.home{
+    margin: 0 5px 0 5px;
+}
+.Bangalore{
+    margin: 0 5px 0 5px;
+}
+.Bannerghatta-Main-Road{
+    margin: 0 5px 0 5px;
+}
+.Kitchens-of-Punjab{
+    margin: 0 5px 0 5px;
+    color: black;
+}
+
+/* putting effect while hovering to middle section topbar */
+
+.home :hover{
+    color: black;
+}
+.Bangalore :hover{
+    color: black;
+}
+.Bannerghatta-Main-Road :hover{
+    color: black;
+}
+
+
+/* changing color of middle top bar to grey */
+.homeanchor{
+    color: grey;
+}
+.Bangalore-anchor{
+    color: grey;
+}
+.Bannerghatta-Main-Road-anchor{
+    color: grey;
+}
+
+/* ending of middle topbar */
+
+/* starting of middle image, name, rating and offer section */
+
+.secondbarsection{
+    min-width: 1400px;
+    display: flex;
+    border: 2px solid black;
+    height: 270px;
+    background-color:#272324;
+}
+
+.secondbar-image{
+    height: 200px;
+    width: 280px;
+    margin: 35px 0 0 60px ;
+}
+
+.about-restaurant{
+    width: 550px;
+    margin: 10px 50px 10px 50px;
+    /* border: 2px solid red; */
+}
+
+.res-name{
+    min-width: 400px;
+    height: 50px;
+    /* border: 2px solid rgb(17, 46, 230); */
+    margin: 35px 0 0px 0;
+    color: lightgrey;
+    font-size: xx-large;
+}
+
+.res-address-rating-delicost-time{
+    height: 115px;
+    /* border: 4px solid rgb(24, 83, 32); */
+}
+
+.res-address{
+    /* border: 2px solid blue; */
+    height: 20px;
+    color: grey;
+    margin: 0 0 10px 0;
+}
+
+.res-cust-address{
+    /* border: 2px solid rgb(202, 95, 29); */
+    height: 20px;
+    color: grey;
+}
+
+.res-rating-delitime-cost{
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 2px solid blue; */
+    height: 70px;
+    margin: 20px 0 0 0 ;
+}
+
+.middledown-arrow{
+    cursor: pointer;
+}
+
+.change-outlet-anchor{
+    color: rgba(187, 189, 195, 0.67);
+    font-weight: 700;
+}
+
+.res-rating{
+    /* border: 2px solid yellow; */
+    height: 50px;
+    width: 120px;
+    border-right: 2px solid grey;
+}
+
+
+.res-delitime{
+    /* border: 2px solid yellow; */
+    height: 50px;
+    width: 120px;
+    border-right: 2px solid grey;
+    margin-left: 20px;
+}
+
+.res-cost{
+    /* border: 2px solid yellow; */
+    height:50px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.rating-div{
+    /* border: 2px solid pink; */
+    padding-left: 10px;
+}
+
+.rating-count{
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.total-rating-div{
+    /* border: 2px solid pink; */
+    color: lightgrey;
+    margin: 5px 0px 0px 0px ;
+}
+
+
+
+/* offer section in the middlebar */
+
+.offer-section{
+    height: 170px;
+    width: 400px;
+    border: 1px solid grey;
+    margin: 70px 100px 50px 70px;
+}
+
+.offer-heading{
+    color: rgb(242, 236, 236);
+    font-size: x-large;
+    /* border: 2px solid blue; */
+    width: 100px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -5px;
+    background-color: #272324;
+}
+
+.offer{
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 50px;
+    margin: 10px 0px 0px 20px ;
+
+}
+
+#icons{
+    color: lightgrey;
+    font-size: xx-large;
+    margin-right: 7px;
+    /* border: 2px solid blue; */
+}
+
+.discount-desc{
+    color: lightgrey;
+    font-size: larger;
+    /* border: 2px solid yellow; */
+}
+
+/* middlebar search, vegonly and fav */
+
+.search-veg-fav{
+    display: flex;
+    /* border: 2px solid yellow; */
+    margin: -15px 400px -5px 300px;
+    min-width: 1000px;
+    font-size: large;
+    align-items: center;
+}
+
+.search{
+    /* border: 2px solid pink; */
+    background-color: #fff;
+    width: 240px;
+    height: 40px;
+    margin: -14px 20px 0px 90px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+}
+
+.vegonly{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+    background-color: #fff;
+    width: 100px;
+    height: 40px;
+    margin: -14px 11px 1px -2px;
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+}
+
+.favorites{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid grey; */
+    background-color: #fff;
+    width: 117px;
+    height: 40px;
+    margin: -14px 0px 0px 5px;
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+}
+
+.search-content{
+    color: grey;
+    /* border: 2px solid blue; */
+    margin-left: 5px;
+}
+.veg-content{
+    margin-left: 5px;
+}
+.fav-content{
+    margin-left: 5px;
+}
+
+/* middle part third section */
+
+.thirdbarsection{
+    /* border: 5px solid green; */
+    display: flex;
+    min-width: 1400px;
+    height: 500px;
+}
+
+.foodtypes-aboutfood{
+    display: flex;
+    /* border: 2px solid blue; */
+    margin: 2px 2px 2px 2px;
+    min-width: 1080px;
+}
+.foodtype{
+    /* border: 2px solid rgb(6, 6, 20); */
+    margin: 2px 2px 2px 2px;
+    min-width: 330px;
+    border-right: 1px solid grey;
+}
+
+.foodtypes-list{
+    /* border: 2px solid yellow; */
+    margin: 80px 39px 0px 110px;
+    text-align-last: right;
+    list-style: none
+}
+
+#marginof10{
+    margin: 4px 0px 0px 4px;
+    font-size: large;
+}
+
+/* middle section of middlebar */
+.aboutfood{
+    /* border: 2px solid rgb(205, 138, 66); */
+    margin: 20px 2px 2px 38px;
+    min-width: 730px;
+}
+
+.food-product-div{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 162px;
+    margin: 31px 0px 0px 0px;
+    border-bottom: 1px solid grey;
+    width: 610px;
+}
+
+.without-img{
+    /* border: 2px solid grey; */
+    width: 450px;
+}
+
+.foodproduct-img{
+    /* border: 2px solid black; */
+    width: 180px;
+    margin: 9px 0px 0px 36px;
+    position: relative;
+}
+
+
+.non-veg-icon{
+    height: 31px;
+}
+
+.food-item-name{
+    /* border: 2px solid yellow; */
+    font-size: larger;
+    margin: 2px 0px 0px 0px;
+    color: #3e4152;
+}
+
+.food-price{
+    margin: 7px 0px 0px 0px;
+}
+
+.food-desc{
+    /* color: rgba(40,44,63,.45); */
+    margin: 21px 0px 0px 0px;
+    width: 430px;
+}
+
+.ADD-div{
+    border: 1px solid grey;
+    color: green;
+    display: flex;
+    position: absolute;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin: -22px 0px 0px 11px; */
+    background-color: white;
+    /* z-index: auto; */
+    width: 108px;
+    height: 28px;
+    z-index: 1;
+    top: 50%;
+    right: 16%;
+}
+
+.imageoffooditem{
+    width: 132px;
+    margin: -3px 0px 0px 0px
+}
+
+/* cart empty */
+
+.emptycart{
+    /* width: 300px; */
+    /* border: 2px solid red; */
+    margin: -45px 2px 2px 2px;
+    min-width: 400px;
+}
+
+.emptycart-name{
+    /* border: 2px solid orange; */
+    font-size: xx-large;
+    color: grey;
+    margin: 72px 0px 0px 0px;
+}
+
+.emptycart-img{
+    /* border: 2px solid orange; */
+    height: 230px;
+    margin: 30px 0px 0px 0px;
+}
+
+.emptycart-content{
+    /* border: 2px solid orange; */
+    color: grey;
+    font-size: larger;
+    margin: 20px 0px 0px 0px;
+    width: 240px;
+}
+
+
+/* Footer */
+
+.footerdiv{
+    /* border: 2px solid green; */
+    display: flex;
+    height: 85px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.left-footer{
+    /* border: 2px solid green; */
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.middle-footer{
+    /* border: 2px solid green; */
+    width: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 32px;
+}
+
+.right-footer{
+    /* border: 2px solid green; */
+    width: 260px;
+    margin: 0px 60px 0px 0px;
+}
+
+.footer-swiggy-img{
+    color: black;
+    height: 65px;
+}
+
+.right-footer-icons{
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.facebook-icon{
+    /* border: 2px solid pink; */
+    height: 30px;
+}
