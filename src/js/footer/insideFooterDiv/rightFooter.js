@@ -8,6 +8,5 @@ export function rightFooterDiv(parentId){
         elementId:'rightFooterDiv'
     })
     appendChildIntoParent(parentId, [rightFooterDiv]);
-
     rightFooterIconsDiv(rightFooterDiv.getAttribute('id'));
 }

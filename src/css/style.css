@@ -444,7 +444,7 @@ a:hover{
     list-style: none
 }
 
-#marginof10{
+.marginof10{
     margin: 4px 0px 0px 4px;
     font-size: large;
 }
@@ -454,6 +454,7 @@ a:hover{
     /* border: 2px solid rgb(205, 138, 66); */
     margin: 20px 2px 2px 38px;
     min-width: 730px;
+    overflow-y: scroll;
 }
 
 .food-product-div{

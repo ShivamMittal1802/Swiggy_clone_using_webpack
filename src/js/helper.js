@@ -10,6 +10,5 @@ export const createDomElement= ({elementType, elementId, elementClass, src, inne
 
 export const appendChildIntoParent= (parentId, childrens) => {
     const parent = document.getElementById(parentId);
-    // console.log({parentId})
     parent.append(...childrens);
 }
