@@ -1,5 +1,5 @@
 import { createDomElement, appendChildIntoParent } from "../../../helper";
-import { createFoodTypeList } from "./helper";
+import { createFoodTypeList } from "./helperFoodTypes";
 
 export function foodTypeDiv(parentId){
     const foodTypeDiv = createDomElement({

@@ -1,4 +1,6 @@
 import { createDomElement, appendChildIntoParent } from "../../../helper";
+import { createRestaurantDishesCart } from "./cardDish";
+// import { foodProductDiv } from "./foodProductDiv/foodProductDiv";
 
 export function aboutFoodDiv(parentId){
     const aboutFoodDiv = createDomElement({
@@ -26,6 +28,9 @@ export function aboutFoodDiv(parentId){
     })
     appendChildIntoParent(aboutFoodDiv.getAttribute('id'), [itemCount]);
 
-
+    // foodProductDiv(aboutFoodDiv.getAttribute('id'));
     
+    createRestaurantDishesCart(aboutFoodDiv.getAttribute('id'))
+    // console.log('till here');
+
 }
