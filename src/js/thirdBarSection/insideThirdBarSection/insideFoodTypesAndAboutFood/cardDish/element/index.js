@@ -2,7 +2,7 @@ import { createDomElement, appendChildIntoParent } from "../../../../../helper";
 import { createDishCardLeft } from "./leftCard";
 import { createDishCardRight } from "./rightCard";
 // console.log('till here');
-export function createDishCard({icon, dishName, price, description, image, subElemenLefttId, subElementRightId, individualId, parentId}){
+export function createDishCard({icon, dishName, price, description, image, subElemenLefttId, subElementRightId, individualId, parentId, btnId, quantityId}){
     const container = createDomElement({
         elementType:'div',
         elementClass:'food-product-div',
@@ -12,7 +12,7 @@ export function createDishCard({icon, dishName, price, description, image, subEl
     appendChildIntoParent(parentId, [container]);
 
     const leftDishCard=createDishCardLeft(icon, dishName, price, description, subElemenLefttId, individualId);
-    const righttDishCard=createDishCardRight(image, subElementRightId, individualId);
+    const righttDishCard=createDishCardRight(image, subElementRightId, individualId, btnId, quantityId);
 
     appendChildIntoParent(individualId,[leftDishCard,righttDishCard]);
     return container;

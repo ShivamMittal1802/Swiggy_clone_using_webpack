@@ -12,6 +12,8 @@ export function createRestaurantDishesCart(parentId){
             subElementRightId: "CardNo1Right",
             individualId:"cardNo1",
             parentId:parentId,
+            btnId:'btn1',
+            quantityId:'quantity1'
         },
         {
             icon:'<img src="non-veg.png" alt="" class="non-veg-icon">',
@@ -23,6 +25,8 @@ export function createRestaurantDishesCart(parentId){
             subElementRightId: "CardNo2Right",
             individualId:"cardNo2",
             parentId:parentId,
+            btnId:'btn2',
+            quantityId:'quantity2'
         },
         {
             icon:'<img src="non-veg.png" alt="" class="non-veg-icon">',
@@ -34,6 +38,8 @@ export function createRestaurantDishesCart(parentId){
             subElementRightId: "CardNo3Right",
             individualId:"cardNo3",
             parentId:parentId,
+            btnId:'btn3',
+            quantityId:'quantity3'
         },
         {
             icon:'<img src="non-veg.png" alt="" class="non-veg-icon">',
@@ -45,6 +51,8 @@ export function createRestaurantDishesCart(parentId){
             subElementRightId: "CardNo4Right",
             individualId:"cardNo4",
             parentId:parentId,
+            btnId:'btn4',
+            quantityId:'quantity4'
         },
         {
             icon:'<img src="non-veg.png" alt="" class="non-veg-icon">',
@@ -56,6 +64,8 @@ export function createRestaurantDishesCart(parentId){
             subElementRightId: "CardNo5Right",
             individualId:"cardNo5",
             parentId:parentId,
+            btnId:'btn5',
+            quantityId:'quantity5'
         },
         {
             icon:'<img src="non-veg.png" alt="" class="non-veg-icon">',
@@ -67,12 +77,10 @@ export function createRestaurantDishesCart(parentId){
             subElementRightId: "CardNo6Right",
             individualId:"cardNo6",
             parentId:parentId,
+            btnId:'btn6',
+            quantityId:'quantity6'
         }
     ]
     // console.log('till heresdfs');
     list.map(createDishCard);
-    // git status
-    // git add .
-    // git commit -m "add something"
-    // git push
 }

@@ -517,6 +517,22 @@ a:hover{
     right: 16%;
 }
 
+.add-btn{
+    width: 22px;
+    height: 20px;
+    margin: 3px 0px 0px 11px;
+}
+
+.remove-btn{
+    width: 22px;
+    height: 20px;
+    margin: 3px 11px 0px 0px;
+}
+
+.quantity{
+    margin: 0px 6px 0px 6px;
+}
+
 .imageoffooditem{
     width: 132px;
     margin: -3px 0px 0px 0px
